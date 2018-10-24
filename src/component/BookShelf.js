@@ -5,7 +5,6 @@ import Book from "./Book";
 class BookShelf extends Component {
     state = {}
 
-
     render() {
         return (
             <div className="bookshelf">
@@ -25,8 +24,6 @@ class BookShelf extends Component {
                             ))}
                     </ol>
                 </div>
-                </div>
-                <BookShelf shelf={shelf}} />
             </div>
         )
     }
