@@ -9,6 +9,7 @@ class Search extends Component {
     render() {
         return (
             <div className="search-books">
+//Search Bar
                 <div className="search-books-bar">
                     <a
                         className="close-search"
@@ -17,6 +18,7 @@ class Search extends Component {
                         <input type="text" placeholder="Search by title or author"/>
                     </div>
                 </div>
+//Search Results
                 <div className="search-books-results">
                     <ol className="books-grid"></ol>
                 </div>
@@ -24,3 +26,5 @@ class Search extends Component {
         )
     }
 }
+
+export default Search

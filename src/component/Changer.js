@@ -1,6 +1,7 @@
 import React, {Component} from 'react'
 // import * as BooksAPI from './BooksAPI'
 
+// Turn into stateless component
 class Changer extends Component {
     state = {}
 
